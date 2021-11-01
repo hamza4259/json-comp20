@@ -12,16 +12,7 @@ $(document).ready(() => {
       rawElemSelector.innerHTML = jsonString;
 
       // by default we want to display all of the cards
-      let allCards = document.querySelector("#all-cards"); 
-      
-      // song is each individual object in the whole json object
-      jsonObject.forEach((song) => {
-        let songCard = document.createElement("div");
-        songCard.className = "song-card";
-        songCard.innerHTML = `<div>Title: ${song.Artist}</div><div>Artist: ${song.Title}</div>`;
-        songCard.innerHTML += `<div>Genre: ${song.Genre}</div><div>Year: ${song.Year}</div>`;
-        allCards.appendChild(songCard);
-      });
+      filterByGenre(onclick);
 	});
 });
 
