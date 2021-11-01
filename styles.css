@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+h1 {
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+main {
+  padding: 1rem 2rem 2rem;
+}
+
+form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  background-color: #fff;
+  font-family: "Inter";
+}
+
+#filter-button {
+  background-color: #fff;
+  padding: 2px 3px 2px;
+  border: 1px solid #000;
+}
+
+#all-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.song-card {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+  border: 5px solid #000;
+  width: 200px;
+}

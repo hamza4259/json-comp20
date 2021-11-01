@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMP20-JSON Song List</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>COMP-20 JSON Song List</h1>
+    <main>
+     <!-- raw json string -->
+      <div id="raw-json-string"></div>
+       
+      <!-- form with the dropdown menu -->
+      <!-- the button filters by genre selected -->
+      <form>
+        <label for="genres">Filter Songs by Genre:</label>
+        <select name="genres" id="genres">
+          <option value="All">All</option>
+          <option value="Pop">Pop</option>
+          <option value="Rap">Rap</option>
+          <option value="Hip-Hop">Hip-Hop</option>
+        </select>
+        <input
+          type="button"
+          value="Filter"
+          id="filter-button"
+          onclick="filterByGenre()"
+        />
+      </form>
+        <!-- displays the cards based on filter restraints -->
+      <div id="all-cards"></div>
+    </main>
+  </body>
+</html>
