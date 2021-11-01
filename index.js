@@ -28,7 +28,7 @@ const filterByGenre = (e) => {
     if (song.Genre == selectedGenre || selectedGenre == "All") {
       let songCard = document.createElement("div");
       songCard.className = "song-card";
-      songCard.innerHTML = `<div>Title: ${song.Artist}</div><div>Artist: ${song.Title}</div>`;
+      songCard.innerHTML = `<div>Artist: ${song.Artist}</div><div>Title: ${song.Title}</div>`;
       songCard.innerHTML += `<div>Genre: ${song.Genre}</div><div>Year: ${song.Year}</div>`;
       allCardsSelector.appendChild(songCard);
     }
