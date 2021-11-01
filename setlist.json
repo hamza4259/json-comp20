@@ -1,0 +1,62 @@
+[
+  {
+     "Title": "Champagne Poetry",
+     "Artist": "Drake",
+     "Genre": "Rap",
+     "Year": "2021"
+  },
+  {
+     "Title": "Papi's Home",
+     "Artist": "Drake",
+     "Genre": "Rap",
+     "Year": "2021"
+  },
+  {
+     "Title": "N 2 Deep",
+     "Artist": "Drake",
+     "Genre": "Rap",
+     "Year": "2021"
+  },
+  {
+     "Title": "Jail",
+     "Artist": "Kanye West",
+     "Genre": "Hip-Hop",
+     "Year": "2021"
+  },
+  {
+     "Title": "Hurricane",
+     "Artist": "Kanye West",
+     "Genre": "Hip-Hop",
+     "Year": "2021"
+  },
+  {
+     "Title": "Nikes",
+     "Artist": "Frank Ocean",
+     "Genre": "Pop",
+     "Year": "2016"
+  },
+  {
+     "Title": "Pink + White",
+     "Artist": "Frank Ocean",
+     "Genre": "Pop",
+     "Year": "2016"
+  },
+  {
+     "Title": "Self Control",
+     "Artist": "Frank Ocean",
+     "Genre": "Pop",
+     "Year": "2016"
+  },
+  {
+     "Title": "Nights",
+     "Artist": "Frank Ocean",
+     "Genre": "Pop",
+     "Year": "2016"
+  },
+   {
+     "Title": "White Ferrari",
+     "Artist": "Frank Ocean",
+     "Genre": "Pop",
+     "Year": "2016"
+  }
+]
